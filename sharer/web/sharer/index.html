@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8">
+	<title>维念远控.分享端</title>
+	<script type="text/javascript" src="../../js/adapter.min.js"></script>
+	<script type="text/javascript" src="../../js/peerjs.min.js"></script>
+	<script type="text/javascript" src="../../js/socket.io.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script type="text/javascript" src="../script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="network.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<img id="main_logo" src="../../img/webapp.ico">
+		<p id="main_name">维念远控<span>.分享端</span></p><br>
+		<div id="main_code">
+			<p>连接代号</p>
+			<h1 id="main_code_i">Fetching...</h1>
+			<button id="main_code_copy" title="复制">&#xebcc;</button>
+		</div>
+		<div id="main_pswd">
+			<p>验证码</p>
+			<h1 id="main_pswd_i"></h1>
+			<button id="main_pswd_edit" title="编辑">&#xea73;</button>
+			<input id="main_pswd_in" autocomplete="off" hidden="">
+		</div>
+		<button id="main_share">分享我的屏幕</button>
+	</div>
+	<div id="moreApps">
+		<a href="/web/controller"><div>
+			<img src="../../img/webapp.ico">
+			<h1>控制端</h1>
+			<p>在浏览器就能远控你的机器</p>
+		</div></a>
+		<a href="https://3sqrt7.lanzouq.com/iGL4T0jb0uta" target="_blank"><div>
+			<img src="../../img/desktop.ico">
+			<h1>桌面端</h1>
+			<p>支持远控与被控，解锁更多玩法</p>
+		</div></a>
+	</div>
+	<div id="donate">
+		<img id="donate_icon" src="../../img/donate.svg">
+		<h1 id="donate_title">维念需要您的帮助</h1>
+		<p id="donate_text">捐助我们，让我们继续为您提供更好的服务。</p>
+		<img id="donate_code" src="../../img/donateCode.webp">
+		<img id="donate_code-zfb" src="../../img/donateCode-zfb.webp" hidden="">
+		<p id="donate_imcute"><b>我很可爱，请给我钱。</b><br>点击上方收款码更换支付方式</p>
+	</div>
+	<div id="cprt">
+		<img src="../../img/vnisoft/logo.webp"><br>
+		版权所有 © 2022 维念软件。<br>保留所有权利。
+	</div>
+	<div id="tips"></div>
+<!-- Cloudflare Pages Analytics --><script defer="" src='../../beacon.min.js' data-cf-beacon='{"token": "6227d3396a7c424daa391ca13f8d8435"}'></script><!-- Cloudflare Pages Analytics -->	<div style="display:none;"><a href="https://smalltool.github.io/">快速仿站</a></div>
+</body>
+
+</html>
